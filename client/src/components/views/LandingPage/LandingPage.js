@@ -11,7 +11,7 @@ function LandingPage() {
     const [mainMovieImage, setMainMovieImage] = useState(null)
 
     useEffect(()=> {
-        const endpoint = `http://localhost:4000/api`;
+        const endpoint = `http://52.79.56.51:4000//api`;
         fetchMovies(endpoint)
 
     },[])
