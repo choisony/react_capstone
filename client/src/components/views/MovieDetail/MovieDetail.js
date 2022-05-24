@@ -17,7 +17,7 @@ function MovieDetail(props) {
     }
     const callApi = async ()=>{
         axios
-            .get("http://localhost:4000/api")
+            .get("http://52.79.56.51:4000/api")
             .then((res) => {
                 console.log(res.data)
                 setMovie(res.data)
